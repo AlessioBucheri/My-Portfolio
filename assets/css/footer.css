@@ -1,0 +1,75 @@
+footer {
+    background-color: none;
+    width: 100%;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 10px; /* Aggiungi spaziatura tra i cerchi */
+    text-align: center;
+    width: 50px; /* Modifica la larghezza e l'altezza secondo le tue preferenze */
+    height: 50px;
+    line-height: 60px; /* Per centrare il testo verticalmente */
+    border-radius: 50%; /* Rende l'elemento circolare */
+    background-color: none; /* Colore di sfondo del cerchio */
+    color: white; /* Colore del testo */
+    text-decoration: none;
+}
+
+.social-links a i {
+    font-size: 2em;
+    color: white;
+    opacity: 0.9;
+}
+
+.social-links a:hover {
+    background-color: black;
+    transition: 0.3s;
+}
+
+.footer-bottom {
+    background-color: none;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: white;
+}
+
+.footer-bottom a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    color: rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 40em) {
+    .social-links{
+        margin-top: 4vh;
+    }
+}
+
+@media only screen and (max-width: 90em) {
+    .header {
+        min-width: 55vw;
+    }
+
+    .foto {
+        max-width: 80vw;
+        margin-left: 5vh;
+        margin-bottom: 3vh;
+    }
+}
+        
+@media only screen and (max-width: 40em) {
+    .header {
+        min-width: 80vw;
+    }   
+}
