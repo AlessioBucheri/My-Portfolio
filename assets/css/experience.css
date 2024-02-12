@@ -1,6 +1,7 @@
 img {
-    margin-top: 100px;
-    margin-left: 80vh;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 35vh;
     height: 300px;
 }
 
@@ -101,7 +102,7 @@ img {
 }
   
 /* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
     .timeline{
         margin-top: 150px;
     }
@@ -130,4 +131,35 @@ img {
     .right {
         left: 0%;
     }
+    .cv-icon{
+        margin-left: 50px;
+        height: 230px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        min-width: 55vw;
+    }
+    .foto {
+        max-width: 80vw;
+        margin-left: 5vh;
+        margin-bottom: 3vh;
+    }
+    .cv-icon{
+        margin-left: 50px;
+        height: 230px;
+    }
+}
+        
+@media only screen and (max-width: 992px) {
+    .header {
+        min-width: 80vw;
+    }   
+}
+
+@media only screen and (max-width: 1200px) {
+    .header {
+        min-width: 80vw;
+    }   
 }
