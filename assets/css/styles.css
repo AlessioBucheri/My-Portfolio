@@ -63,12 +63,12 @@ body{
     position: relative;
 }
 
-.foto {
+.picture {
     margin-top: 100px;
     margin-bottom: 50px;
 }
 
-.presentazione {
+.introduction {
     font-size: 60px;
     font-weight: 700;
     color: white;
@@ -76,7 +76,7 @@ body{
     text-align: center;
 }
 
-.descrizione {
+.description-1 {
     font-size: 20px;
     color: white;
     text-align: center;

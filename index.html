@@ -10,7 +10,7 @@
     <meta property="og:title" content="Alessio Bucheri Web Developer">
     <meta property="og:description" content="Il mio personale sito web. Scorpi chi sono, di cosa mi occupo e le mie passioni.">
     
-    <link rel="icon" href="./images/Bucheri.svg">
+    <link rel="icon" href="./assets/images/Bucheri.svg">
 
     <title>Alessio Bucheri Web Developer</title>
     
@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="./assets/css/form.css">
     <link rel="stylesheet" href="./assets/css/carousel.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/form2-0.css">
 
     <script src="./assets/js/java.js"></script>
 
@@ -44,38 +45,35 @@
 <body>
 
 <!-- HEADER -->
-  <header class="header" id="myheader">
-      <nav class="navbar">
-        <div class="name">
-          <p class="nav-name">Alessio Bucheri Web Developer</p>
-        </div>
-        <ul class="nav nav-underline">
-          <li class="nav-item">
-            <a class="nav-link link-light" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-light" href="#myproject">Project</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-light" href="#myskills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-light" href="./my-experience.html">My Experience</a>
-          </li>
-        </ul>
-      </nav>
-  </header>
+<header class="header" id="myheader">
+  <nav class="navbar">
+    <div class="name">
+      <p class="nav-name"><a class="nav-link link-light" href="#">Alessio Bucheri Web Developer</a></p>
+    </div>
+    <ul class="nav nav-underline">
+      <li class="nav-item">
+        <a class="nav-link link-light" href="#myproject">Project</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link link-light" href="#myskills">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link link-light" href="./my-experience.html">My Experience</a>
+      </li>
+    </ul>
+  </nav>
+</header>
 <!-- FINE HEADER -->
 
 <!-- PRESENTAZIONE-->
-    <section class="container">
-      <picture class="box foto"><img class="foto" src="./images/bucheri-nosfondo.svg" alt="Immagine del web developer">
-      </picture>
-      <div class="box box1">
-            <h1 class="presentazione">Hi, I'm Alessio!</h1>
-            <p class="descrizione">This is my personal website. You will know me, my job and my passions. Come and see what i can do, what could i do and what I'll do.</p>
-        </div>
-    </section>
+<section class="container">
+  <picture class="box picture"><img class="foto" src="./assets/images/bucheri-nosfondo.svg" alt="Immagine del web developer">
+  </picture>
+  <div class="box box1">
+    <h1 class="introduction">Hi, I'm Alessio!</h1>
+    <p class="description-1">This is my personal website. You will know me, my job and my passions. Come and see what i can do, what could i do and what I'll do.</p>
+  </div>
+</section>
 <!-- FINE PRESENTAZIONE-->
 
 <hr />
@@ -83,7 +81,7 @@
 <!-- PROGETTI -->
 <div class="carosello"><a name="myproject"></a>
   <div class="contenitore progetti">
-    <h1 class="titolo-progetti">My Projects!</h1>
+    <h2 class="titolo-progetti">My Projects!</h2>
     <p class="descrizione-progetti">Here can you see some projects I build.</p>
   </div>  
   <div id="carouselExampleControls" class="carousel slide contenitore" data-bs-ride="carousel">
@@ -94,23 +92,23 @@
         <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
       <div class="carousel-item active c-item">
-        <img src="./images/personal-portfolio.jpg" class="d-block w-100" c-img alt="personal-portfolio-screenshot">
+        <img src="./assets/images/personal-portfolio.jpg" class="d-block w-100" c-img alt="personal-portfolio-screenshot">
         <div class="carousel-caption">
-          <h5>Project 1</h5>
+          <h2>Project 1</h2>
           <p>My personal website and portfolio.</p>
         </div>
       </div>
       <div class="carousel-item c-item">
-        <img src="./images/first-project.jpg" class="d-block w-100" c-img alt="first-project-screenshot">
+        <img src="./assets/images/first-project.jpg" class="d-block w-100" c-img alt="first-project-screenshot">
         <div class="carousel-caption">
-          <h5>Project 2</h5>
+          <h2>Project 2</h2>
           <p>Website for a fictional divulgative scientific magazine.</p>
         </div>
       </div>
       <div class="carousel-item c-item">
-        <img src="./images/coming-soon.svg" class="d-block w-100" c-img alt="coming-soon-image">
+        <img src="./assets/images/coming-soon.svg" class="d-block w-100" c-img alt="coming-soon-image">
         <div class="carousel-caption">
-          <h5>Project 3</h5>
+          <h2>Project 3</h2>
           <p>Coming Soon.</p>
         </div>
       </div>
@@ -132,19 +130,19 @@
 <!-- SKILLS -->
   <section class="container-skills"><a name="myskills"></a>
     <div class="intestazione">
-      <h1 class="titolo">My Skills!</h1>
+      <h2 class="titolo">My Skills!</h2>
       <p class="contenuto">Over the years, I have developed the following skills and abilities thanks to the many experiences I have gained in various jobs.</p>
     </div>
     <div class="container-icon">
-      <div class="item"><img src="./images/Icon-skills/Teamwork.svg" class="icon-skills" alt="team-work-image"><h1 class="skills">Team Work</h1>
+      <div class="item"><img src="./assets/images/Icon-skills/Teamwork.svg" class="icon-skills" alt="team-work-image"><h2 class="skills">Team Work</h2>
       </div>
-      <div class="item"><img src="./images/Icon-skills/ProblemSolving.svg" class="icon-skills" alt="problem-solving-image"><h1 class="skills">Problem Solving</h1>
+      <div class="item"><img src="./assets/images/Icon-skills/ProblemSolving.svg" class="icon-skills" alt="problem-solving-image"><h2 class="skills">Problem Solving</h2>
       </div>
-      <div class="item"><img src="./images/Icon-skills/DecisionMaking.svg" class="icon-skills" alt="decision-making-image"><h1 class="skills">Decision Making</h1>
+      <div class="item"><img src="./assets/images/Icon-skills/DecisionMaking.svg" class="icon-skills" alt="decision-making-image"><h2 class="skills">Decision Making</h2>
       </div>
-      <div class="item"><img src="./images/Icon-skills/Organization.svg" class="icon-skills" alt="organization-image"><h1 class="skills">Organization</h1>
+      <div class="item"><img src="./assets/images/Icon-skills/Organization.svg" class="icon-skills" alt="organization-image"><h2 class="skills">Organization</h2>
       </div>
-      <div class="item"><img src="./images/Icon-skills/Adaptibility.svg" class="icon-skills" alt="Adaptibility-image"><h1 class="skills">Adaptibility</h1>
+      <div class="item"><img src="./assets/images/Icon-skills/Adaptibility.svg" class="icon-skills" alt="Adaptibility-image"><h2 class="skills">Adaptibility</h2>
       </div>
     </div>
   </section>
@@ -157,7 +155,7 @@
   <div class="section__form_container">
     <div class="section__form_container-abs">
         <div class="section__form--title-box">
-          <h1 class="heading__tertiary">Contact Me</h1>
+          <h2 class="heading__tertiary">Contact Me</h2>
         </div>
       <div class="section__form--input-box">
         <form name="contactMe" class="cta__form" action="https://formsubmit.co/alessio.j.1993@gmail.com" method="post">

@@ -19,7 +19,6 @@ body{
 }
 
 .container-skills {
-    max-width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,10 +28,8 @@ body{
 .intestazione {
     display: flex;
     flex-direction: column;
-    max-width: 1200px;
-    position: relative;
-    margin-left: 50vh;
     margin-top: 15vh;
+    align-items: center;
 }
 
 .titolo {
@@ -40,13 +37,11 @@ body{
     font-weight: 700;
     color: white;
     margin-bottom: 30px;
-    text-align: center;
 }
 
 .contenuto {
     font-size: 20px;
     color: white;
-    text-align: center;
 }
 
 .container-icon {
@@ -54,8 +49,6 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 30px;
-    width: max-content;
-    margin-left: 50vh;
     margin-top: 5vh;
     margin-bottom: 5vh;
 }
@@ -87,13 +80,8 @@ body{
 }
 
 @media only screen and (max-width: 40em) {
-    .container-skills {
-        max-width: 40px;
-        margin-left: 10px;
-    }
-    .container-icon {
-        margin-left: 45vh;
-        flex-direction: column;
-    }
+    .intestazione {
+    margin-left: 10px;
+}
 }
 
