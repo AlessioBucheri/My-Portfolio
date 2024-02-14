@@ -17,13 +17,21 @@
 }
 
 .section__form--btn-box {
+    margin-left: 25%;
+    max-width: 50%;
     margin-top: 3rem;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     border: none;
     border-radius: 9px;
     border-bottom: 3px solid transparent;
     display: flex;
     justify-content: space-evenly;
+}
+
+.section__form--btn-box:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
 }
 
 .form__group {
@@ -71,10 +79,6 @@
 
 .form {
     font-family: 'Inconsolata', sans-serif; 
-}
-
-.label {
-    color: white;
 }
 
 @media only screen and (max-width: 40em) {
