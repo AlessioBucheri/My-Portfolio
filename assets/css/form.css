@@ -23,7 +23,8 @@
     background-color: white;
     border: none;
     border-radius: 9px;
-    border-bottom: 3px solid black;
+    border: 3px black;
+    border-bottom: 3px solid transparent;
     display: flex;
     justify-content: space-evenly;
 }
