@@ -47,28 +47,23 @@ body{
     color: white;
 }
 
-.container {
-    max-width: 1200px;
+.presentation-box {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
     font-family: 'Inconsolata', sans-serif;
+    margin-top: 20vh;
 }
 
-.box {
+.presentation-inner {
     display: flex;
     flex-direction: column;
     max-width: 600px;
     position: relative;
 }
 
-.picture {
-    margin-top: 100px;
-    margin-bottom: 50px;
-}
-
-.introduction {
+.presentation {
     font-size: 60px;
     font-weight: 700;
     color: white;
@@ -76,7 +71,7 @@ body{
     text-align: center;
 }
 
-.description-1 {
+.presentation-description {
     font-size: 20px;
     color: white;
     text-align: center;
@@ -86,7 +81,7 @@ hr {
     background-color: white; /* Colore della linea */
     height: 3px; /* Altezza della linea */
     border: none; /* Rimuovi il bordo predefinito */
-    margin: 20px 0; /* Spaziatura sopra e sotto l'elemento hr */
+    margin: 50px 0; /* Spaziatura sopra e sotto l'elemento hr */
     width: 50%;
 }
 
@@ -109,12 +104,12 @@ hr {
         max-width: 1000px;
         margin-left: 25px;
     }
-    .foto {
+    .presentation-picture {
         max-width: 45vh;
         margin-left: 1vh;
         margin-bottom: 3vh;
     }
-    .presentazione {
+    .presentation {
         margin-top: 1vh;
         margin-left: 3vh;
     }
@@ -132,7 +127,7 @@ hr {
     .header {
         min-width: 55vw;
     }
-    .foto {
+    .presentation-picture {
         max-width: 80vw;
         margin-left: 5vh;
         margin-bottom: 3vh;
@@ -140,12 +135,6 @@ hr {
 }
         
 @media only screen and (max-width: 992px) {
-    .header {
-        min-width: 80vw;
-    }   
-}
-
-@media only screen and (max-width: 1200px) {
     .header {
         min-width: 80vw;
     }   
