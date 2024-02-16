@@ -17,35 +17,55 @@ body{
     background: linear-gradient(45deg, #55249a,#181873); /* Violetto a Blu */
 }
 
-.header .navbar{
-    position: fixed;
-    z-index: 10000;
-    top: 0;
+/*CSS NAVBAR*/
+#navbar {
     background-color: #221A73; /* Violetto a Blu */;
-    max-height: 70px;
-}
-
-.navbar {
-    display: flex;
+    position: fixed;
     width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    z-index: 100;
+    height: 70px;
+    top: 0;
+    z-index: 1000; /* Assicura che la navbar rimanga sopra gli altri contenuti */
     font-family: 'Inconsolata', sans-serif;
     text-shadow: 5px 3px 3px black;
 }
+  
+#navbar nav ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+  
+#navbar nav ol li {
+    display: inline;
+}
+  
+#navbar nav ol li a {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+  
+#navbar nav ol li a:hover {
+    background-color: white;
+    color: black;
+    text-shadow: 5px 3px 3px grey;
 
-.nav > li {
-    margin-right: 80px;
+}
+
+.nav-item {
     font-size: 20px;
+    padding: 10px;
+    float: right;
 }
 
 .nav-name {
     font-size: 20px;
     padding: 10px;
-    color: white;
+    float: left;
 }
+/*END CSS NAVBAR */
 
 .presentation-box {
     display: flex;
