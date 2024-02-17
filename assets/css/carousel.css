@@ -1,24 +1,38 @@
-.contenitore {
+.main-carousel {
     display: flex;
-    flex-direction: column;
-    max-width: 500px;
-    position: relative;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-family: 'Inconsolata', sans-serif;
+    margin-top: 20vh;
 }
 
-.titolo-progetti {
+.inner-carousel {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    position: relative;
+}
+.carousel-project {
+    margin-top: 100px;
+    color: white;
+    font-family: 'Inconsolata', sans-serif;
+    text-align: center;
+}
+.carousel-project-title {
     font-size: 60px;
     font-weight: 700;
     color: white;
-    margin-top: 10px;
     margin-bottom: 30px;
     text-align: center;
 }
 
-.descrizione-progetti {
-    margin-right: 20px;
+.carousel-project-description {
     font-size: 20px;
     color: white;
     text-align: center;
+}
+.slide-show {
+    width: 600px;
 }
 
 .c-item{
@@ -30,70 +44,19 @@
     object-fit: cover;
 }
 
-.carosello {
-    max-width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    font-family: 'Inconsolata', sans-serif;
-    margin-top: 15vh;
-}
-
-.contenitore {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 600px;
-    position: relative;
-}
-
 .d-block {
     border: white;
     border-style: solid;
     border-width: 2px;
 }
 
-.progetti{
-    color: white;
-    font-family: 'Inconsolata', sans-serif;
-    text-align: center;
-    margin-left: 200px;
-    margin-top: 200px;
-}
-
-.slide {
-    margin-left: 150px;
-    margin-top: 80px;
-}
-
-@media only screen and (max-width: 40em) {
-    .progetti {
-        margin-top: 10px;
-        margin-left: 4vh;
-    }
-    .descrizione-progetti{
-        margin-left: 3vh;
-        margin-bottom: 3vh;
-    }
-    .carousel-inner {
-        margin-right: 20vh;
-        margin-left: 5vh;
+@media only screen and (max-width: 430px) {
+    .slide-show {
+        width: 75%;
     }
 }
-
-@media only screen and (max-width: 90em) {
-    .header {
-        min-width: 55vw;
+@media only screen and (max-width: 1118px) {
+    .slide-show {
+        width: 75%;
     }
-
-    .foto {
-        max-width: 80vw;
-        margin-left: 5vh;
-        margin-bottom: 3vh;
-    }
-}
-        
-@media only screen and (max-width: 40em) {
-    .header {
-        min-width: 80vw;
-    }   
 }

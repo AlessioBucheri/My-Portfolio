@@ -23,23 +23,24 @@ body{
     flex-direction: column;
     align-items: center;
     font-family: 'Inconsolata', sans-serif;
+    color: white;
 }
 
-.intestazione {
+.inner-container-skills {
     display: flex;
     flex-direction: column;
     margin-top: 15vh;
     align-items: center;
 }
 
-.titolo {
+.skills-title {
     font-size: 60px;
     font-weight: 700;
     color: white;
     margin-bottom: 30px;
 }
 
-.contenuto {
+.skills-content {
     font-size: 20px;
     color: white;
 }
@@ -80,7 +81,7 @@ body{
 }
 
 @media only screen and (max-width: 40em) {
-    .intestazione {
+    .inner-container-skills {
     margin-left: 10px;
 }
 }

@@ -55,7 +55,7 @@ body{
     float: right;
 }
 .nav-name {
-    font-size: 20px;
+    font-size: 1.5em;
     padding: 10px;
     float: left;
 }
@@ -99,24 +99,17 @@ hr {
     width: 50%;
 }
 
-@media only screen and (max-width: 576px) {
-    .header .navbar {
-        max-height: 1000px;
+@media only screen and (max-width: 430px) {
+    #navbar{
+        height: fit-content;
+        flex-wrap: wrap;
     }
     .nav-name {
-        margin-left: 60px;
+        text-align: center;
     }
-    .nav {
-        padding: 0 1.5rem;
-        align-items: center;
-    }
-    .nav li {
-        margin-right: 8px;
-    }
-    .nav-underline {
-        font-size: 10px;
-        max-width: 1000px;
-        margin-left: 25px;
+    .nav-item {
+        padding: 0;
+        flex-direction: row;
     }
     .presentation-picture {
         max-width: 45vh;
@@ -137,19 +130,28 @@ hr {
     
 }
 
-@media only screen and (max-width: 768px) {
-    .header {
-        min-width: 55vw;
+@media only screen and (max-width: 950px) {
+    #navbar{
+        flex-wrap: wrap;
+    }
+    .nav-name {
+        text-align: center;
+    }
+    .nav-item {
+        flex-direction: row;
+    }
+    .presentation-picture {
+        max-width: 45vh;
+        margin-left: 1vh;
+        margin-bottom: 3vh;
+    }
+    .presentation {
+        margin-top: 1vh;
+        margin-left: 3vh;
     }
     .presentation-picture {
         max-width: 80vw;
         margin-left: 5vh;
         margin-bottom: 3vh;
     }
-}
-        
-@media only screen and (max-width: 992px) {
-    .header {
-        min-width: 80vw;
-    }   
 }
