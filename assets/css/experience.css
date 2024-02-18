@@ -1,14 +1,16 @@
-img {
-    margin-top: 60px;
-    margin-bottom: 30px;
-    margin-left: 35vh;
-    height: 300px;
+.experience-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
 }
 
+.cv-icon {
+    width: 800px;
+}
 /* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
-    max-width: 1200px;
     margin: 0 auto;
     margin-top: 70px;
     font-family: 'Inconsolata', sans-serif;
