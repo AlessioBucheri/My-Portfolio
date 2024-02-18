@@ -5,16 +5,12 @@
     margin-bottom: 40px;
 }
 
-.cv-icon {
-    width: 800px;
-}
-
 .experience-image {
     max-width: 100%;
 }
 
 .cv-icon {
-    width: 100%; /* Imposta la larghezza dell'immagine al 100% del suo contenitore genitore */
+    width: 50%; /* Imposta la larghezza dell'immagine al 100% del suo contenitore genitore */
     height: auto; /* Imposta l'altezza automatica per mantenere le proporzioni */
     display: block; /* Assicura che l'immagine sia visualizzata come blocco */
 }
