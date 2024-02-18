@@ -190,6 +190,23 @@
   </div>
 </section>
 
+<script>
+  function sendMail() {
+    var firstName = document.getElementById('firstname').value.trim();
+    var lastName = document.getElementById('lastname').value.trim();
+    var email = document.getElementById('email').value.trim();
+    var message = document.getElementById('message').value.trim();
+
+    // Verifica che tutti i campi obbligatori siano stati compilati
+    if (firstName === '' || lastName === '' || email === '' || message === '') {
+      alert('Per favore, compila tutti i campi obbligatori.');
+      return false; // Impedisce l'invio del modulo se mancano campi obbligatori
+    }
+
+    // Se tutti i campi sono stati compilati, il modulo può essere inviato
+    document.forms['contactMe'].submit();
+  }
+</script>
 <!--FINE FORM-->
 
 <!--FOOTER-->
