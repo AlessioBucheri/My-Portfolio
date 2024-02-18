@@ -10,7 +10,7 @@
 }
 
 .cv-icon {
-    width: 50%; /* Imposta la larghezza dell'immagine al 100% del suo contenitore genitore */
+    width: 70%; /* Imposta la larghezza dell'immagine al 100% del suo contenitore genitore */
     height: auto; /* Imposta l'altezza automatica per mantenere le proporzioni */
     display: block; /* Assicura che l'immagine sia visualizzata come blocco */
 }
