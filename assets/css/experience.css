@@ -8,6 +8,16 @@
 .cv-icon {
     width: 800px;
 }
+
+.experience-image {
+    max-width: 100%;
+}
+
+.cv-icon {
+    width: 100%; /* Imposta la larghezza dell'immagine al 100% del suo contenitore genitore */
+    height: auto; /* Imposta l'altezza automatica per mantenere le proporzioni */
+    display: block; /* Assicura che l'immagine sia visualizzata come blocco */
+}
 /* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
@@ -133,35 +143,4 @@
     .right {
         left: 0%;
     }
-    .cv-icon{
-        margin-left: 50px;
-        height: 230px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .header {
-        min-width: 55vw;
-    }
-    .foto {
-        max-width: 80vw;
-        margin-left: 5vh;
-        margin-bottom: 3vh;
-    }
-    .cv-icon{
-        margin-left: 50px;
-        height: 230px;
-    }
-}
-        
-@media only screen and (max-width: 992px) {
-    .header {
-        min-width: 80vw;
-    }   
-}
-
-@media only screen and (max-width: 1200px) {
-    .header {
-        min-width: 80vw;
-    }   
 }
