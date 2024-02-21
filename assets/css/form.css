@@ -20,19 +20,20 @@
     margin-left: 25%;
     max-width: 50%;
     margin-top: 3rem;
-    background-color: white;
+    background-color: none;
     border: none;
     border-radius: 9px;
-    border: 5px black;
-    border-style: solid;
     display: flex;
     justify-content: space-evenly;
 }
 
-.section__form--btn-box:hover{
+#button {
+    background-color: white;
+}
+#button:hover{
     background-color: black;
     color: white;
-    transition: 0.3s;
+    
 }
 
 .form__group {
