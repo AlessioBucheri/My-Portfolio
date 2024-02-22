@@ -130,6 +130,35 @@ hr {
     
 }
 
+@media only screen and (max-width: 750px) {
+    #navbar{
+        flex-wrap: wrap;
+    }
+    .nav-name {
+        text-align: center;
+        font-size: 18px;
+    }
+    .nav-item {
+        flex-direction: row;
+        font-size: 13px;
+        
+    }
+    .presentation-picture {
+        max-width: 45vh;
+        margin-left: 1vh;
+        margin-bottom: 3vh;
+    }
+    .presentation {
+        margin-top: 1vh;
+        margin-left: 3vh;
+    }
+    .presentation-picture {
+        max-width: 80vw;
+        margin-left: 5vh;
+        margin-bottom: 3vh;
+    }
+}
+
 @media only screen and (max-width: 950px) {
     #navbar{
         flex-wrap: wrap;
